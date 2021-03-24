@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.Controller.UpdateWindowController">
+   <children>
+      <Button layoutX="514.0" layoutY="361.0" mnemonicParsing="false" onAction="#okButton" text="Ok"/>
+      <Label layoutX="161.0" layoutY="111.0" text="Name" />
+      <Label layoutX="132.0" layoutY="153.0" text="Manufacturer" />
+      <Label layoutX="138.0" layoutY="192.0" text="Description" />
+      <TextField fx:id="nameTextField" layoutX="211.0" layoutY="107.0" />
+      <TextField fx:id="manufacturerTextField" layoutX="211.0" layoutY="149.0" />
+      <TextField fx:id="descriptionTextField" layoutX="211.0" layoutY="188.0" />
+      <TextField fx:id="quantityTextField" layoutX="211.0" layoutY="231.0" />
+      <TextField fx:id="costTextField" layoutX="211.0" layoutY="270.0" />
+      <Label layoutX="147.0" layoutY="235.0" text="Quantity" />
+      <Label layoutX="147.0" layoutY="274.0" text="Cost" />
+   </children>
+</AnchorPane>
